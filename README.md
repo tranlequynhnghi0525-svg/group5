@@ -40,7 +40,7 @@
  /* DANH SÁCH BÀI */
  .lesson-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
  .lesson-card{background:#fff;border:2px solid var(--g200);border-radius:14px;padding:16px;cursor:pointer;
- text-align:left;font:inherit;transition:.2s;box-shadow:var(--shadow)}
+ text-align:left;font:inherit;color:inherit;transition:.2s;box-shadow:var(--shadow)}
  .lesson-card:hover{border-color:var(--g500);transform:translateY(-3px)}
  .lesson-card.active{background:var(--g700);border-color:var(--g700);color:#fff}
  .lesson-card .no{font-size:1.3rem;font-weight:800;color:var(--g700)}
@@ -145,6 +145,4 @@ const members = [
 // Mỗi dòng = 1 bài. Thêm bài mới: copy 1 dòng rồi dán xuống dưới.
 // file: đường dẫn tới tài liệu trong repo (VD: docs/bai1.pdf). Để "" nếu chưa có.
 const lessons = [
- { title:"Tên bài 1", description:"Mô tả ngắn về bài 1.", author:"nghi", date:"2025-01-10", file:"docs/bai1.pdf" },
- { title:"Tên bài 2", description:"Mô tả ngắn về bài 2.", author:"ngoc", date:"2025-01-17", file:"docs/bai2.pdf" },
- { title:"Tên
+ { title:"Tên bài 1", description:"Mô tả ngắn về bài 1.", author:"nghi", date:"2
